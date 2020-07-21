@@ -5,9 +5,9 @@
   <subtitle>加密兔-Hexo</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://jmtuc.top/"/>
+  <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/"/>
   <updated>2020-07-20T17:50:34.288Z</updated>
-  <id>http://jmtuc.top/</id>
+  <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/</id>
   
   <author>
     <name>jiamin Tu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>categories_test-分类测试</title>
-    <link href="http://jmtuc.top/2020/07/19/categories_test/"/>
-    <id>http://jmtuc.top/2020/07/19/categories_test/</id>
+    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/19/categories_test/"/>
+    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/19/categories_test/</id>
     <published>2020-07-19T13:24:33.006Z</published>
     <updated>2020-07-20T17:50:34.288Z</updated>
     
@@ -72,15 +72,15 @@ comments: false
     
     </summary>
     
-      <category term="test" scheme="http://jmtuc.top/categories/test/"/>
+      <category term="test" scheme="https://jmtu.gitee.io/jmtu-yilia-plus-demo/categories/test/"/>
     
     
   </entry>
   
   <entry>
     <title>image -Typora 图片使用</title>
-    <link href="http://jmtuc.top/2020/07/19/image/"/>
-    <id>http://jmtuc.top/2020/07/19/image/</id>
+    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/19/image/"/>
+    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/19/image/</id>
     <published>2020-07-19T09:14:12.000Z</published>
     <updated>2020-07-20T17:50:34.295Z</updated>
     
@@ -93,14 +93,14 @@ comments: false
     </summary>
     
     
-      <category term="test" scheme="http://jmtuc.top/tags/test/"/>
+      <category term="test" scheme="https://jmtu.gitee.io/jmtu-yilia-plus-demo/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://jmtuc.top/2020/07/18/hello-world/"/>
-    <id>http://jmtuc.top/2020/07/18/hello-world/</id>
+    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/18/hello-world/"/>
+    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/18/hello-world/</id>
     <published>2020-07-18T14:09:22.601Z</published>
     <updated>2020-07-20T17:50:34.293Z</updated>
     
