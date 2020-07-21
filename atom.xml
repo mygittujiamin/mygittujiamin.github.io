@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>jmtu博客</title>
+  
+  <subtitle>加密兔-Hexo</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://jmtuc.top/"/>
+  <updated>2020-07-20T17:50:34.288Z</updated>
+  <id>http://jmtuc.top/</id>
+  
+  <author>
+    <name>jiamin Tu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>categories_test-分类测试</title>
+    <link href="http://jmtuc.top/2020/07/19/categories_test/"/>
+    <id>http://jmtuc.top/2020/07/19/categories_test/</id>
+    <published>2020-07-19T13:24:33.006Z</published>
+    <updated>2020-07-20T17:50:34.288Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="测试分类使用："><a href="#测试分类使用：" class="headerlink" title="测试分类使用："></a>测试分类使用：</h3><h6 id="1-分类页面构建"><a href="#1-分类页面构建" class="headerlink" title="1.分类页面构建"></a>1.分类页面构建</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure><h6 id="2-修改分类生成的index-md文件"><a href="#2-修改分类生成的index-md文件" class="headerlink" title="2.修改分类生成的index.md文件"></a>2.修改分类生成的index.md文件</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">type: &quot;categories&quot;</span><br><span class="line">comments: false</span><br></pre></td></tr></table></figure><h6 id="3-新建yilia-layout-categories-ejs，输入："><a href="#3-新建yilia-layout-categories-ejs，输入：" class="headerlink" title="3.新建yilia/layout/categories.ejs，输入："></a>3.新建<code>yilia/layout/categories.ejs</code>，输入：</h6><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&lt;article <span class="class"><span class="keyword">class</span></span>=<span class="string">"article article-type-post show"</span>&gt;</span><br><span class="line">  &lt;header <span class="class"><span class="keyword">class</span></span>=<span class="string">"article-header"</span> style=<span class="string">"border-bottom: 1px solid #ccc"</span>&gt;</span><br><span class="line">  &lt;h1 <span class="class"><span class="keyword">class</span></span>=<span class="string">"article-title"</span> itemprop=<span class="string">"name"</span>&gt;</span><br><span class="line">    &lt;%= page.title %&gt;</span><br><span class="line">  &lt;<span class="regexp">/h1&gt;</span></span><br><span class="line"><span class="regexp">  &lt;/</span>header&gt;</span><br><span class="line"></span><br><span class="line">  &lt;% <span class="keyword">if</span> (site.categories.length)&#123; %&gt;</span><br><span class="line">  &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"category-all-page"</span>&gt;</span><br><span class="line">    &lt;h2&gt;共计&amp;nbsp;&lt;%= site.categories.length %&gt;&amp;nbsp;个分类&lt;<span class="regexp">/h2&gt;</span></span><br><span class="line"><span class="regexp">    &lt;%- list_categories(site.categories, &#123;</span></span><br><span class="line"><span class="regexp">      show_count: true,</span></span><br><span class="line"><span class="regexp">      class: 'category-list-item',</span></span><br><span class="line"><span class="regexp">      style: 'list',</span></span><br><span class="line"><span class="regexp">      depth: 2,</span></span><br><span class="line"><span class="regexp">      separator: ''</span></span><br><span class="line"><span class="regexp">    &#125;) %&gt;</span></span><br><span class="line"><span class="regexp">  &lt;/</span>div&gt;</span><br><span class="line">  &lt;% &#125; %&gt;</span><br><span class="line">&lt;<span class="regexp">/article&gt;</span></span><br></pre></td></tr></table></figure><h1 id=""><a href="#" class="headerlink" title=""></a></h1><p><span id="busuanzi_container_page_pv">  本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span></p>]]></content>
+    
+    <summary type="html">
+    
+      测试分类使用：
+1.分类页面构建
+1
+
+
+hexo new page categories
+
+
+2.修改分类生成的index.md文件
+1
+2
+
+
+type: &quot;categories&quot;
+comments: false
+
+
+3.新建yilia/layout/categories.ejs，输入：
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+
+&lt;article class=&quot;article article-type-post show&quot;&gt;
+  &lt;header class=&quot;article-header&quot; style=&quot;border-bott
+    
+    </summary>
+    
+      <category term="test" scheme="http://jmtuc.top/categories/test/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>image -Typora 图片使用</title>
+    <link href="http://jmtuc.top/2020/07/19/image/"/>
+    <id>http://jmtuc.top/2020/07/19/image/</id>
+    <published>2020-07-19T09:14:12.000Z</published>
+    <updated>2020-07-20T17:50:34.295Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="Typora-编辑hexo博客插入图片问题设置"><a href="#Typora-编辑hexo博客插入图片问题设置" class="headerlink" title="Typora 编辑hexo博客插入图片问题设置"></a>Typora 编辑hexo博客插入图片问题设置</h5><p><img src="/images/image/image-20200719191111347.png" alt="image-20200719191111347"></p>]]></content>
+    
+    <summary type="html">
+    
+      Typora 编辑hexo博客插入图片问题设置
+    
+    </summary>
+    
+    
+      <category term="test" scheme="http://jmtuc.top/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://jmtuc.top/2020/07/18/hello-world/"/>
+    <id>http://jmtuc.top/2020/07/18/hello-world/</id>
+    <published>2020-07-18T14:09:22.601Z</published>
+    <updated>2020-07-20T17:50:34.293Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+
+Quick Start
+Create a new post
+1
+
+
+$ hexo new &quot;My New Post&quot;
+
+
+More info: Writing
+
+Run server
+1
+
+
+$ hexo s
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
