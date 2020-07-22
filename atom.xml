@@ -6,7 +6,7 @@
   <link href="/jmtu-yilia-plus-demo/atom.xml" rel="self"/>
   
   <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/"/>
-  <updated>2020-07-20T17:50:34.288Z</updated>
+  <updated>2020-07-22T04:23:53.484Z</updated>
   <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>this a test for jmtuc.top</title>
+    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/22/this-a-test-for-jmtuc.top/"/>
+    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/22/this-a-test-for-jmtuc.top/</id>
+    <published>2020-07-22T04:23:53.484Z</published>
+    <updated>2020-07-22T04:23:53.484Z</updated>
+    
+    <content type="html"><![CDATA[<h6 id="这是个测试"><a href="#这是个测试" class="headerlink" title="这是个测试"></a>这是个测试</h6>]]></content>
+    
+    <summary type="html">
+    
+      这是个测试
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>categories_test-分类测试</title>
