@@ -3,11 +3,11 @@
   <title>加密兔博客-Hexo</title>
   
   <subtitle>加密兔博客</subtitle>
-  <link href="/jmtu-yilia-plus-demo/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/"/>
+  <link href="https://jmtu.gitee.io/"/>
   <updated>2020-07-30T04:48:08.079Z</updated>
-  <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/</id>
+  <id>https://jmtu.gitee.io/</id>
   
   <author>
     <name>jiamin Tu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo使用过程可能遇到的问题</title>
-    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/30/hexo%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E5%B0%8F%E7%BB%93/"/>
-    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/30/hexo使用问题小结/</id>
+    <link href="https://jmtu.gitee.io/2020/07/30/hexo%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E5%B0%8F%E7%BB%93/"/>
+    <id>https://jmtu.gitee.io/2020/07/30/hexo使用问题小结/</id>
     <published>2020-07-30T03:37:15.160Z</published>
     <updated>2020-07-30T04:48:08.079Z</updated>
     
@@ -33,18 +33,18 @@
     </summary>
     
     
-      <category term="hexo" scheme="https://jmtu.gitee.io/jmtu-yilia-plus-demo/tags/hexo/"/>
+      <category term="hexo" scheme="https://jmtu.gitee.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Front-matter template</title>
-    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/29/template/"/>
-    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/29/template/</id>
+    <link href="https://jmtu.gitee.io/2020/07/29/template/"/>
+    <id>https://jmtu.gitee.io/2020/07/29/template/</id>
     <published>2020-07-28T17:42:29.000Z</published>
     <updated>2020-07-29T16:07:09.289Z</updated>
     
-    <content type="html"><![CDATA[<script src=/jmtu-yilia-plus-demo/js/crypto-js.js></script><script>function doDecrypt (pwd, onError) {console.log('in doDecrypt');const txt = document.getElementById('enc_content').innerHTML;let plantext;try {const bytes = CryptoJS.AES.decrypt(txt, pwd);var plaintext = bytes.toString(CryptoJS.enc.Utf8);} catch(err) {if(onError) {onError(err);}return;}document.getElementById('enc_content').innerHTML = plaintext;document.getElementById('enc_content').style.display = 'block';document.getElementById('enc_passwd').style.display = 'none';if(typeof MathJax !== 'undefined') {MathJax.Hub.Queue(['resetEquationNumbers', MathJax.InputJax.TeX],['PreProcess', MathJax.Hub],['Reprocess', MathJax.Hub]);}}</script><div id="enc_content" style="display:none">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</div><div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div><script>var onError = function(error) {document.getElementById("enc_error").innerHTML = "password error!"};function decrypt() {var passwd = document.getElementById("enc_pwd_input").value;console.log(passwd);doDecrypt(passwd, onError);}</script></div>]]></content>
+    <content type="html"><![CDATA[<script src=/js/crypto-js.js></script><script>function doDecrypt (pwd, onError) {console.log('in doDecrypt');const txt = document.getElementById('enc_content').innerHTML;let plantext;try {const bytes = CryptoJS.AES.decrypt(txt, pwd);var plaintext = bytes.toString(CryptoJS.enc.Utf8);} catch(err) {if(onError) {onError(err);}return;}document.getElementById('enc_content').innerHTML = plaintext;document.getElementById('enc_content').style.display = 'block';document.getElementById('enc_passwd').style.display = 'none';if(typeof MathJax !== 'undefined') {MathJax.Hub.Queue(['resetEquationNumbers', MathJax.InputJax.TeX],['PreProcess', MathJax.Hub],['Reprocess', MathJax.Hub]);}}</script><div id="enc_content" style="display:none">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</div><div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div><script>var onError = function(error) {document.getElementById("enc_error").innerHTML = "password error!"};function decrypt() {var passwd = document.getElementById("enc_pwd_input").value;console.log(passwd);doDecrypt(passwd, onError);}</script></div>]]></content>
     
     <summary type="html">
     
@@ -52,17 +52,17 @@
     
     </summary>
     
-      <category term="配置项" scheme="https://jmtu.gitee.io/jmtu-yilia-plus-demo/categories/%E9%85%8D%E7%BD%AE%E9%A1%B9/"/>
+      <category term="配置项" scheme="https://jmtu.gitee.io/categories/%E9%85%8D%E7%BD%AE%E9%A1%B9/"/>
     
     
-      <category term="test" scheme="https://jmtu.gitee.io/jmtu-yilia-plus-demo/tags/test/"/>
+      <category term="test" scheme="https://jmtu.gitee.io/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>hexo-yilia 博客建站日志</title>
-    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/28/hexo-yilia-%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/"/>
-    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/28/hexo-yilia-博客建站日志/</id>
+    <link href="https://jmtu.gitee.io/2020/07/28/hexo-yilia-%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/"/>
+    <id>https://jmtu.gitee.io/2020/07/28/hexo-yilia-博客建站日志/</id>
     <published>2020-07-28T06:04:08.032Z</published>
     <updated>2020-07-29T17:34:06.094Z</updated>
     
@@ -75,15 +75,15 @@
     
     </summary>
     
-      <category term="hexo建站" scheme="https://jmtu.gitee.io/jmtu-yilia-plus-demo/categories/hexo%E5%BB%BA%E7%AB%99/"/>
+      <category term="hexo建站" scheme="https://jmtu.gitee.io/categories/hexo%E5%BB%BA%E7%AB%99/"/>
     
     
   </entry>
   
   <entry>
     <title>git 常用命令使用</title>
-    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/22/git-%E4%BD%BF%E7%94%A8%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%9C%B0%E5%88%86%E6%94%AF%E5%92%8C%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%88%E5%B9%B6/"/>
-    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/22/git-使用关于本地分支和远程仓库项目的合并/</id>
+    <link href="https://jmtu.gitee.io/2020/07/22/git-%E4%BD%BF%E7%94%A8%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%9C%B0%E5%88%86%E6%94%AF%E5%92%8C%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%88%E5%B9%B6/"/>
+    <id>https://jmtu.gitee.io/2020/07/22/git-使用关于本地分支和远程仓库项目的合并/</id>
     <published>2020-07-22T06:23:55.571Z</published>
     <updated>2020-07-29T17:36:32.891Z</updated>
     
@@ -95,15 +95,15 @@
     
     </summary>
     
-      <category term="git" scheme="https://jmtu.gitee.io/jmtu-yilia-plus-demo/categories/git/"/>
+      <category term="git" scheme="https://jmtu.gitee.io/categories/git/"/>
     
     
   </entry>
   
   <entry>
     <title>Typoa 图片使用</title>
-    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/19/image/"/>
-    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/19/image/</id>
+    <link href="https://jmtu.gitee.io/2020/07/19/image/"/>
+    <id>https://jmtu.gitee.io/2020/07/19/image/</id>
     <published>2020-07-19T09:14:12.000Z</published>
     <updated>2020-07-29T17:32:55.488Z</updated>
     
@@ -116,14 +116,14 @@
     </summary>
     
     
-      <category term="test" scheme="https://jmtu.gitee.io/jmtu-yilia-plus-demo/tags/test/"/>
+      <category term="test" scheme="https://jmtu.gitee.io/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/18/hello-world/"/>
-    <id>https://jmtu.gitee.io/jmtu-yilia-plus-demo/2020/07/18/hello-world/</id>
+    <link href="https://jmtu.gitee.io/2020/07/18/hello-world/"/>
+    <id>https://jmtu.gitee.io/2020/07/18/hello-world/</id>
     <published>2020-07-18T14:09:22.601Z</published>
     <updated>2020-07-29T17:36:54.488Z</updated>
     
