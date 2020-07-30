@@ -13,6 +13,14 @@ const ap = new APlayer({
   lrcType: 3, //使用lrc文件提供歌词
 //网易云默认外链链接：http://music.163.com/song/media/outer/url?id=ID数字.mp3
   audio: [
+    {
+        name: '如果当时',
+        artist: '许嵩',
+        url: 'http://music.163.com/song/media/outer/url?id=167870.mp3',
+        cover: 'http://p2.music.126.net/Md3RLH0fe2a_3dMDnfqoQg==/18590542604286213.jpg?param=130y130',
+        lrc: '/./dist/music/lrc/rgds.lrc',
+        theme: '#46718b'
+    },
       {
           name: '庐州月',
           artist: '许嵩',
