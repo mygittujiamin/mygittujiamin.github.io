@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/mygittujiamin/mygittujiamin.github.io.git/"/>
-  <updated>2020-09-17T18:36:20.844Z</updated>
+  <updated>2020-09-17T18:53:07.510Z</updated>
   <id>https://github.com/mygittujiamin/mygittujiamin.github.io.git/</id>
   
   <author>
@@ -17,27 +17,21 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test.md</title>
-    <link href="https://github.com/mygittujiamin/mygittujiamin.github.io.git/2020/09/18/test-md/"/>
-    <id>https://github.com/mygittujiamin/mygittujiamin.github.io.git/2020/09/18/test-md/</id>
-    <published>2020-09-17T18:36:20.000Z</published>
-    <updated>2020-09-17T18:36:20.844Z</updated>
+    <title>jmtu</title>
+    <link href="https://github.com/mygittujiamin/mygittujiamin.github.io.git/2020/09/18/jmtu/"/>
+    <id>https://github.com/mygittujiamin/mygittujiamin.github.io.git/2020/09/18/jmtu/</id>
+    <published>2020-09-17T18:51:56.000Z</published>
+    <updated>2020-09-17T18:53:07.510Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://jmtuc.top/images/blog/2000482.jpg" alt="2000482"></p>]]></content>
     
     <summary type="html">
     
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://github.com/mygittujiamin/mygittujiamin.github.io.git/2020/09/18/test/"/>
-    <id>https://github.com/mygittujiamin/mygittujiamin.github.io.git/2020/09/18/test/</id>
-    <published>2020-09-17T18:35:52.000Z</published>
-    <updated>2020-09-17T18:35:52.759Z</updated>
-    
-    <summary type="html">
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://jmtuc.top/images/blog/2000482.jpg&quot; alt=&quot;2000482&quot;&gt;&lt;/p&gt;
+
+      
     
     </summary>
     
