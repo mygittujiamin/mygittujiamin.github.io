@@ -14,6 +14,14 @@ const ap = new APlayer({
 //网易云默认外链链接：http://music.163.com/song/media/outer/url?id=ID数字.mp3
   audio: [
     {
+      name: '世界美好与你环环相扣',
+      artist: 'cover柏松',
+      url: 'http://music.163.com/song/media/outer/url?id=1399534395.mp3',
+      cover: 'http://p1.music.126.net/cOTFS8y3gqVQUNAGVmO2EQ==/109951164452878889.jpg?param=130y130',
+      lrc: '/./dist/music/lrc/sjmhynhhxk.lrc',
+      theme: '#46718b'
+  },
+    {
         name: '如果当时',
         artist: '许嵩',
         url: 'http://music.163.com/song/media/outer/url?id=167870.mp3',
