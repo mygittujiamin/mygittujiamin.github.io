@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'http://jmtuc.com/min_photos/' + data.link[i];
-          var src = 'http://jmtuc.com/photos/' + data.link[i];
+          var minSrc = 'http://jmtuc.top/min_photos/' + data.link[i];
+          var src = 'http://jmtuc.top/photos/' + data.link[i];
 		  
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');

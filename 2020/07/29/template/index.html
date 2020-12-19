@@ -14,11 +14,14 @@
 <meta property="og:title" content="Front-matter template">
 <meta property="og:url" content="https://github.com/mygittujiamin/mygittujiamin.github.io.git/2020/07/29/template/index.html">
 <meta property="og:site_name" content="加密兔博客-Hexo">
+<meta property="og:image" content="http://jmtuc.top/images/blog/2020126.jpg">
+<meta property="og:image" content="https://gitee.com/jmtu/blog_image/raw/master//img//20200730143007.png">
 <meta property="article:published_time" content="2020-07-28T17:42:29.000Z">
-<meta property="article:modified_time" content="2020-09-17T18:01:15.511Z">
+<meta property="article:modified_time" content="2020-12-19T13:50:31.504Z">
 <meta property="article:author" content="jiamin Tu">
 <meta property="article:tag" content="test">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://jmtuc.top/images/blog/2020126.jpg">
   
     <link rel="alternative" href="/atom.xml" title="加密兔博客-Hexo" type="application/atom+xml">
   
@@ -245,7 +248,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">192字</span>
+      <span class="post-count">94字</span>
     </span>
   </span>
 
@@ -265,46 +268,16 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <script src=/js/crypto-js.js></script>
-<script>
-function doDecrypt (pwd, onError) {
-	console.log('in doDecrypt');
-	const txt = document.getElementById('enc_content').innerHTML;
-	let plantext;
-	try {
-		const bytes = CryptoJS.AES.decrypt(txt, pwd);
-		var plaintext = bytes.toString(CryptoJS.enc.Utf8);
-	} catch(err) {
-		if(onError) {
-			onError(err);
-		}
-		return;
-	}
-	document.getElementById('enc_content').innerHTML = plaintext;
-	document.getElementById('enc_content').style.display = 'block';
-	document.getElementById('enc_passwd').style.display = 'none';
-	if(typeof MathJax !== 'undefined') {
-		MathJax.Hub.Queue(
-			['resetEquationNumbers', MathJax.InputJax.TeX],
-			['PreProcess', MathJax.Hub],
-			['Reprocess', MathJax.Hub]
-		);
-	}
-}
-</script>
-<div id="enc_content" style="display:none">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</div>
-<div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
-<script>
-var onError = function(error) {
-	document.getElementById("enc_error").innerHTML = "password error!"
-};
-function decrypt() {
-var passwd = document.getElementById("enc_pwd_input").value;
-console.log(passwd);
-doDecrypt(passwd, onError);
-}
-</script>
-</div>
+    <p><img src="http://jmtuc.top/images/blog/2020126.jpg" alt="2020126"></p>
+<a id="more"></a>
+
+<h5 id="配置项：可以在-config-yml-自定义一些配置项，下图是最基本的配置项"><a href="#配置项：可以在-config-yml-自定义一些配置项，下图是最基本的配置项" class="headerlink" title="配置项：可以在_config.yml 自定义一些配置项，下图是最基本的配置项"></a>配置项：可以在_config.yml 自定义一些配置项，下图是最基本的配置项</h5><p><img src="https://gitee.com/jmtu/blog_image/raw/master//img//20200730143007.png" alt="image-20200729014525747"></p>
+<hr>
+<h5 id="配置项模板："><a href="#配置项模板：" class="headerlink" title="配置项模板："></a>配置项模板：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags: &#123;&#123;tags&#125;&#125;</span><br><span class="line">top: true</span><br><span class="line">categories:</span><br><span class="line">author: &#123;&#123;author&#125;&#125;</span><br><span class="line">summary:   &#x2F;&#x2F;简介</span><br><span class="line">img:     &#x2F;&#x2F;自定义封面</span><br><span class="line">cover:  true &#x2F;&#x2F;轮播</span><br><span class="line">coverImg:  img_url  &#x2F;&#x2F;轮播图、</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h5 id="使用hexo命令文章创建"><a href="#使用hexo命令文章创建" class="headerlink" title="使用hexo命令文章创建"></a>使用hexo命令文章创建</h5><p>hexo new  {layoutName}</p>
+
     
 
     
@@ -360,7 +333,7 @@ doDecrypt(passwd, onError);
     2020-07-29
     <br>
     <strong class="update-time">最后更新：</strong>
-    2020-09-18
+    2020-12-19
     <br>
     <strong class="article-titles">本文标题：</strong>
     <a href="https://github.com/mygittujiamin/mygittujiamin.github.io.git/2020/07/29/template/" title="Front-matter template" target="_blank">Front-matter template</a>
@@ -516,7 +489,7 @@ doDecrypt(passwd, onError);
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    目录，不存在的…
+                    <ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#配置项：可以在-config-yml-自定义一些配置项，下图是最基本的配置项"><span class="toc-number">1.</span> <span class="toc-text">配置项：可以在_config.yml 自定义一些配置项，下图是最基本的配置项</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#配置项模板："><span class="toc-number">2.</span> <span class="toc-text">配置项模板：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#使用hexo命令文章创建"><span class="toc-number">3.</span> <span class="toc-text">使用hexo命令文章创建</span></a></li></ol>
                     </div>
                 </span>
             </div>
